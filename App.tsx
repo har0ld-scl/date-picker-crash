@@ -1,6 +1,6 @@
 import React from 'react';
 import { SafeAreaView, StatusBar, StyleSheet, Text, View } from 'react-native';
-import DatePicker from './src/DatePicker';
+import DatePicker from './DatePicker';
 
 const App = () => {
   const [selectedDate, setSelectedDate] = React.useState<Date>(new Date());
